@@ -11,6 +11,7 @@ export default props => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/get-started" component={GetStarted} />
+      <Route component={Error} />
     </Switch>
   </Router>
 )
